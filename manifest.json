@@ -74,5 +74,18 @@
       "required" : false
     } ],
     "dependencies" : [ ]
+  }, {
+    "functionName" : "hello",
+    "description" : "",
+    "version" : "1.0.0",
+    "dexUrl" : "dex/plugin_hello_v1.0.0.dex",
+    "className" : "com.zutils.generated.helloFunction",
+    "parameters" : [ {
+      "name" : "name",
+      "description" : "",
+      "type" : "STRING",
+      "required" : false
+    } ],
+    "dependencies" : [ ]
   } ]
 }
