@@ -1,18 +1,5 @@
 {
   "plugins" : [ {
-    "functionName" : "greet",
-    "description" : "",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_greet_v1.0.0.dex",
-    "className" : "com.zutils.generated.greetFunction",
-    "parameters" : [ {
-      "name" : "name",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  }, {
     "functionName" : "calculator",
     "description" : "",
     "version" : "1.0.0",
