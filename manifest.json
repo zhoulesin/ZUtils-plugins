@@ -61,18 +61,5 @@
       "required" : false
     } ],
     "dependencies" : [ ]
-  }, {
-    "functionName" : "toastContent",
-    "description" : "",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_toastContent_v1.0.0.dex",
-    "className" : "com.zutils.generated.toastContentFunction",
-    "parameters" : [ {
-      "name" : "content",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
   } ]
 }
