@@ -1,78 +1,111 @@
 {
-  "plugins" : [ {
-    "functionName" : "uuid",
-    "description" : "",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_uuid_v1.0.0.dex",
-    "className" : "com.zutils.generated.uuidFunction",
-    "parameters" : [ {
-      "name" : "count",
-      "description" : "",
-      "type" : "INTEGER",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  }, {
-    "functionName" : "strLength",
-    "description" : "",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_strLength_v1.0.0.dex",
-    "className" : "com.zutils.generated.strLengthFunction",
-    "parameters" : [ {
-      "name" : "text",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  }, {
-    "functionName" : "lowercase",
-    "description" : "",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_lowercase_v1.0.0.dex",
-    "className" : "com.zutils.generated.lowercaseFunction",
-    "parameters" : [ {
-      "name" : "text",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  }, {
-    "functionName" : "toastContent",
-    "description" : "安卓toast函数",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_toastContent_v1.0.0.dex",
-    "className" : "com.zutils.generated.toastContentFunction",
-    "parameters" : [ {
-      "name" : "content",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  }, {
-    "functionName" : "calculator",
-    "description" : "四则运算",
-    "version" : "1.0.0",
-    "dexUrl" : "dex/plugin_calculator_v1.0.0.dex",
-    "className" : "com.zutils.generated.calculatorFunction",
-    "parameters" : [ {
-      "name" : "a",
-      "description" : "",
-      "type" : "NUMBER",
-      "required" : false
-    }, {
-      "name" : "b",
-      "description" : "",
-      "type" : "NUMBER",
-      "required" : false
-    }, {
-      "name" : "op",
-      "description" : "",
-      "type" : "STRING",
-      "required" : false
-    } ],
-    "dependencies" : [ ]
-  } ]
+  "plugins": [
+    {
+      "functionName": "uuid",
+      "description": "",
+      "version": "1.0.0",
+      "dexUrl": "dex/plugin_uuid_v1.0.0.dex",
+      "className": "com.zutils.generated.uuidFunction",
+      "parameters": [
+        {
+          "name": "count",
+          "description": "",
+          "type": "INTEGER",
+          "required": false
+        }
+      ],
+      "dependencies": [],
+      "author": "zutils-team",
+      "checksum": "sha256:c74a9107df2f32be1e424d1f4263dd438f284cda7b12e4b61c451807f79409c2",
+      "signature": "O90PkSbxay5k+4N9IalMiTnxqr8qv9VBN5WZjxBgaGxRS57b+c14vlZnKKzHweDpup6cSbDhHeXofX1xpyAMU3lRWCYZhV56fvC8GlTLcmuAie/7eo2H5pX2YfTQ8NMWsiMrPFZVOabf35sb/sKMwDUJn7NSO/2lNZgMR6jE9YTHRf0dCg5wu+JKfkkryZAzw0pXsau7lZmJPtLUwuuoGFjN3/B/nyRF9t4zoXuPsjJKbYoVG60Cf2vJK55UpZtij9S9ocgF5LLkMiALhikrBeG3DrGXlAk9xMB2fgieNWZcC3bs0mKjibj/qtyvsSjVXPb/39AEiPQdG+kVY51wUQ=="
+    },
+    {
+      "functionName": "strLength",
+      "description": "",
+      "version": "1.0.0",
+      "dexUrl": "dex/plugin_strLength_v1.0.0.dex",
+      "className": "com.zutils.generated.strLengthFunction",
+      "parameters": [
+        {
+          "name": "text",
+          "description": "",
+          "type": "STRING",
+          "required": false
+        }
+      ],
+      "dependencies": [],
+      "author": "zutils-team",
+      "checksum": "sha256:929dc4de59c4a9f4d37cd9a08158b4789517082e004079616f09e44b78924280",
+      "signature": "ZBctTofloVxmf5hi9X/N6ys7JbWI+MxNtfPw7Ys18qMtlCVm3QbF++6Vl8znixmfstUoXJK6eLHc1eh05ZfkkUYxYV1vePtuVqwz1ngR44tjKceAiLyo5Rf2o3vh8vt1SSyDas5V/nXk2m9tJavpEZvjaQWnhibilT09qQcdPcTNVaXGd720R69v+TyjnkiHxP2Q9QX+P7/wBu36Q+CiAoyozX6jeBD8xKP/mYAiPU0Lt8OjbDI63IDZ9m7ppgOfHNFs+kOo15eR6R8MS6Et4sHgETtTqvjYQ0xUktCkwWpS+b/yHWy+JBtoHxpF/kbAuBmBO5vhHS7GVEe8HmvUKw=="
+    },
+    {
+      "functionName": "lowercase",
+      "description": "",
+      "version": "1.0.0",
+      "dexUrl": "dex/plugin_lowercase_v1.0.0.dex",
+      "className": "com.zutils.generated.lowercaseFunction",
+      "parameters": [
+        {
+          "name": "text",
+          "description": "",
+          "type": "STRING",
+          "required": false
+        }
+      ],
+      "dependencies": [],
+      "author": "zutils-team",
+      "checksum": "sha256:831515e5039d0cfbc21f27218b8560d53724aff1e7f67c97fe047940a4233094",
+      "signature": "CgND6DVsOcPtOcCHi527gdvpjIwUqvnBemzhA4/1Zn7Bwx4M9iLFwBx9A6yUaa9zZk7Tv0zBT89oXzroNza+8HcjoMg5SaSDn/tuYmjCU7GTLRqzPvbr6nBbmO7m36LKWwo5LLlqdBTnI4GRTTyxtCzBx7Xk0m8wJw1a4fn5j1W20yJbaK/S8cGcWUfiiNdPBYCGOYKfoI0s/OmRlMZrhl9YPNt2uXk6wq3qMDjcxMIBH8S13yaDyFOhVVMxg8PbFYLiydIMwQvSNvMKaOQlSrL/HjvtBQ9wgsTV3p23xoAO/jqijof9fOhX7dgRpifnBrFpiakd3Q/mHqtIOCeovw=="
+    },
+    {
+      "functionName": "toastContent",
+      "description": "安卓toast函数",
+      "version": "1.0.0",
+      "dexUrl": "dex/plugin_toastContent_v1.0.0.dex",
+      "className": "com.zutils.generated.toastContentFunction",
+      "parameters": [
+        {
+          "name": "content",
+          "description": "",
+          "type": "STRING",
+          "required": false
+        }
+      ],
+      "dependencies": [],
+      "author": "zutils-team",
+      "checksum": "sha256:a0ed31a38fbfc5402a37c82970c25f35f80a0b7a7c9497efb4a4ddb8f3b90581",
+      "signature": "Xgf3xxk1f8t6hvtIIqs6IRA8Lr93U2DV3MGG2ayjOAxjS2RfaOLXwB+EpL/oE3w1ULOoc7JXmLQ+eFd5TUfVYWWL21Z4V8F0VsmgGzSs0xhCG2Q35WCm7ngrEcLtXXZoEpVLCHqqCIZGg/JnwBRSH0/IgVKGHqpUxSRi30ur7z8Qpsc6AQ1ASaUh60eHtkS2r9xtvRNXr23ZDQmc7kQbVSmVLK3uK4qttF5ELmcN4pLmenSQGR9tjbiuoA/mh5cFtEXYXe6QLX6r7mkeQw3Cu5rVOUQu8Zmvy7Xles75UZ5Ng29OnfsoOn7/0bgsKjPYg+/XaZdJYghEXQrfnNxORQ=="
+    },
+    {
+      "functionName": "calculator",
+      "description": "四则运算",
+      "version": "1.0.0",
+      "dexUrl": "dex/plugin_calculator_v1.0.0.dex",
+      "className": "com.zutils.generated.calculatorFunction",
+      "parameters": [
+        {
+          "name": "a",
+          "description": "",
+          "type": "NUMBER",
+          "required": false
+        },
+        {
+          "name": "b",
+          "description": "",
+          "type": "NUMBER",
+          "required": false
+        },
+        {
+          "name": "op",
+          "description": "",
+          "type": "STRING",
+          "required": false
+        }
+      ],
+      "dependencies": [],
+      "author": "zutils-team",
+      "checksum": "sha256:a969aa6e5ca27eb75beeff6785775bdd059b3726f0e8b16537de03deb6ac4f5e",
+      "signature": "HxqxGkHmXDZmp56sRYXQqzzEUVWjSI5OgGgF8atjZF2pVeGlYFINAqQIM+Yk8vbNZwfOBHMJ0Tms+R1KROz5ktO6fHdbqtHBykBsXbP4L7lzpf2MAeJG8z9GJrox0ZFpfG0xoXOVhGO2YR+CStAToWR1H1XXxKC9Mik4qa16la/ZZjlf9hxBePi9NPnWaXK5QmRNOY5sc1Ilyi2aL2dpvg14BfUlxc+gK5bSXLkFn3Nvk1lYiTYE+qcUHvcAEsmBoXVXHcXWa18TjB6ZWF2PjQdICmkq7+JCWOu+/gaSyFFQE4p4U69K7nhfvUDhBz63QrcB68KA52MgtssrFtd3mA=="
+    }
+  ]
 }
