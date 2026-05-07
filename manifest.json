@@ -51,5 +51,28 @@
       "required" : false
     } ],
     "dependencies" : [ ]
+  }, {
+    "functionName" : "calculator",
+    "description" : "四则运算",
+    "version" : "1.0.0",
+    "dexUrl" : "dex/plugin_calculator_v1.0.0.dex",
+    "className" : "com.zutils.generated.calculatorFunction",
+    "parameters" : [ {
+      "name" : "a",
+      "description" : "",
+      "type" : "NUMBER",
+      "required" : false
+    }, {
+      "name" : "b",
+      "description" : "",
+      "type" : "NUMBER",
+      "required" : false
+    }, {
+      "name" : "op",
+      "description" : "",
+      "type" : "STRING",
+      "required" : false
+    } ],
+    "dependencies" : [ ]
   } ]
 }
